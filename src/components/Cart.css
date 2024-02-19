@@ -1,0 +1,109 @@
+.cart{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+   padding-bottom: 10rem;
+}
+.cart button{
+    height: 2.5rem;
+    margin-inline: 1rem;
+    background-color: #276ad6;
+    color: white;
+   border: none;
+    padding-inline: 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.cart-main{
+    background-color: #dce8fc;
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+    padding: .5rem;
+    justify-content: space-between;
+   
+}
+.cart-main img{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.cart-content{
+    display: flex;
+  
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.cart-content h5{
+    margin-inline: 3rem;
+}
+.cart-btn{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;  
+    
+}
+.cart-btn button{
+    height: 1.5rem;
+    margin-inline: 1rem;
+    background-color: #4f84d8;
+    color: white;
+   border: none;
+    padding-inline: 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all ease-in .2s;
+}
+.delete:hover{
+ background-color: #0456da;
+  transform: scale(1.1);
+}
+.order{
+    height: 2.5rem;
+    margin-inline: 1rem;
+    background-color: #276ad6;
+    color: white;
+   border: none;
+    padding-inline: 1rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+.cart a button:hover, .order:hover{
+    background-color: #3475df;
+}
+.order-div{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #85a6dc;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    padding-block: 2rem;
+}
+.cart-page{
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width: 820px){
+    .cart-content{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 580px){
+    .cart-main{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,62 @@
+.card-container{
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 255, 0.749);
+    width: 15rem;
+    height: 100%;
+    padding: .8rem;
+    border-radius: 0.5rem;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-container .car-image img{
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 10rem;
+    
+}
+
+.c2{
+    margin-top: .5rem;
+    height: 8rem;
+   
+}
+.content .c1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.c1 .year{
+    height: 1.5rem;
+   width: fit-content;
+   padding-right: 5px;
+   padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 1rem;
+    border: dashed 1px #cb202d;
+}
+
+.c3{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.c3 button{
+    width: 5.5rem;
+    height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #276ad6;
+    color: white;
+    cursor: pointer;
+}
+.c3 .c31{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
